@@ -95,7 +95,6 @@ export default function PortfolioV2() {
         "Bootstrap",
         "Sass/SCSS",
         "Material-UI",
-        "Chakra UI",
         "Framer Motion",
         "React Query",
         "Redux",
@@ -113,7 +112,6 @@ export default function PortfolioV2() {
         "Laravel",
         "Java",
         "Spring Boot",
-        "C#",
         ".NET",
         "Ruby on Rails",
         "GraphQL",
@@ -137,18 +135,12 @@ export default function PortfolioV2() {
         "MongoDB",
         "PostgreSQL",
         "MySQL",
-        "Redis",
         "VS Code",
         "Figma",
-        "Adobe XD",
         "Postman",
-        "Jest",
-        "Cypress",
         "Webpack",
         "Vite",
         "Babel",
-        "ESLint",
-        "Prettier",
       ],
     },
   ]
@@ -157,32 +149,32 @@ export default function PortfolioV2() {
     {
       title: "E-commerce Platform",
       description: "Full-stack e-commerce application with shopping cart, payment gateway, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "/placeholder.svg?height=200&width=350",
-      github: "#",
+      technologies: ["React", "Node.js", "MongoDB", "Sanity.io or Contentful CMS", "Redux", "Auth flow", "Stripe checkout integration"],
+      image: "better.PNG?height=200&width=350",
+      github: "https://github.com/tochi2055/shopamour",
       demo: "#",
     },
     {
       title: "Task Management App",
       description:
         "TaskFlow is a Trello/Asana-style project management dashboard for modern teams. Manage your tasks, projects, and workflows with an intuitive interface and real-time updates, powered by Supabase..",
-      technologies: ["Next.js", "TypeScript", "Prisma", "Socket.io"],
-      image: "/placeholder.svg?height=200&width=350",
-      github: "#",
+      technologies: ["Next.js", "TypeScript", "React Query", "TailwindCSS + HeadlessUI", "CRUD", " real-world interactions"],
+      image: "taskflow.PNG?height=200&width=350",
+      github: "https://github.com/tochi2055/Taskflow",
       demo: "#",
     },
     {
       title: "Money Amour",
       description: "A financial dashboard helps track balances, expenses, goals, and bills in one view. Built with modern tech like React, it offers real-time insights for better money management.",
       technologies: ["React", "Chart.js", "OpenWeather API", "Tailwind CSS"],
-      image: "/placeholder.svg?height=200&width=350",
-      github: "#",
-      demo: "#",
+      image: "/moneyamour.png?height=200&width=350",
+      github: "https://github.com/tochi2055/moneyamour",
+      demo: "https://moneyamour.vercel.app/",
     },
     {
-      title: "Social Media Analytics",
-      description: "Analytics dashboard for social media metrics with data visualization and reporting features.",
-      technologies: ["Vue.js", "D3.js", "Python", "FastAPI"],
+      title: "Track-IT",
+      description: "a modern, offline-first Progressive Web App (PWA) designed to simulate internal inventory systems used by logistics and e-commerce giants.",
+      technologies: ["CRUD", "Dexie.js (IndexedDB)", "PWA Setup", "FastAPI", "real-time sync", "offline-first PWA", "Springboot"],
       image: "/placeholder.svg?height=200&width=350",
       github: "#",
       demo: "#",
@@ -190,18 +182,18 @@ export default function PortfolioV2() {
     {
       title: "Devfolio",
       description: "Property listing platform with advanced search, virtual tours, and mortgage calculator.",
-      technologies: ["Angular", "Spring Boot", "PostgreSQL", "AWS S3"],
-      image: "/placeholder.svg?height=200&width=350",
-      github: "#",
-      demo: "#",
+      technologies: ["MongoDB Atlas", "CRUD", "PostgreSQL", "AWS S3", " Cloudinary"],
+      image: "betterdevfo.PNG?height=200&width=350",
+      github: "https://github.com/tochi2055/devfolio",
+      demo: "https://devfolio-52zf.vercel.app/",
     },
     {
-      title: "Animated-Beam-Demo",
+      title: "Animation-Demo",
       description: "Educational platform with course management, video streaming, and progress tracking.",
       technologies: ["React", "Node.js", "MongoDB", "Video.js"],
-      image: "/placeholder.svg?height=200&width=350",
-      github: "#",
-      demo: "#",
+      image: "447073190-4e65d25b-9182-438a-ac34-a0001de4c159.png?height=200&width=350",
+      github: "https://github.com/tochi2055/Animation-demo",
+      demo: "https://animation-demo-brown.vercel.app/",
     },
   ]
 
@@ -213,15 +205,15 @@ export default function PortfolioV2() {
       description: "Specialized in software engineering with focus on web development and data structures.",
     },
     {
-      period: "2023",
-      title: "Full-Stack Development Bootcamp",
-      institution: "Tech Academy",
+      period: "2024",
+      title: "Full Stack Web Development Certification",
+      institution: "NASSCOM",
       description: "Intensive training in modern web technologies including React, Node.js, and cloud deployment.",
     },
     {
-      period: "2024",
-      title: "AWS Cloud Practitioner Certification",
-      institution: "Amazon Web Services",
+      period: "2020",
+      title: "Certified DevOps Enginee",
+      institution: "HNG Internship",
       description: "Certified in cloud computing fundamentals and AWS services implementation.",
     },
   ]
@@ -273,7 +265,7 @@ export default function PortfolioV2() {
               onClick={() => scrollToSection("contact")}
               className="hidden md:flex bg-gradient-to-r from-teal-500 to-indigo-500 hover:from-teal-600 hover:to-indigo-600 text-white border-0"
             >
-              Certifications
+              Contact Me 
             </Button>
           </div>
         </div>
@@ -339,16 +331,17 @@ export default function PortfolioV2() {
                   >
                     View Projects <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                  <a href="https://docs.google.com/document/d/1pb11nLGEVSr4xTwpbgZymYJqggJOZe5oS1qa54ndLwE/edit?usp=sharing"></a>
-                  <Button variant="outline" className="border-gray-300 dark:border-gray-700">
+                  <a href="https://drive.google.com/file/d/1CsBK-5r2NoWfAmHXgMNBIbgSVA5cYcIn/view?usp=sharing">  <Button variant="outline" className="border-gray-300 dark:border-gray-700">
                     Download CV
                   </Button>
                   
+                  </a>
+                
                 </div>
 
                 <div className="mt-12 flex gap-4">
                   <a
-                    href="https://github.com/tochukwu-onuoha"
+                    href="https://github.com/tochi2055"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-colors"
@@ -437,11 +430,11 @@ export default function PortfolioV2() {
 
                 <div className="grid grid-cols-2 gap-4 mt-8">
                   <div className="p-4 rounded-lg bg-white dark:bg-gray-800 shadow-sm">
-                    <div className="text-3xl font-bold text-teal-500 dark:text-teal-400 mb-1">3+</div>
+                    <div className="text-3xl font-bold text-teal-500 dark:text-teal-400 mb-1">7+</div>
                     <div className="text-gray-600 dark:text-gray-300">Years of experience</div>
                   </div>
                   <div className="p-4 rounded-lg bg-white dark:bg-gray-800 shadow-sm">
-                    <div className="text-3xl font-bold text-indigo-500 dark:text-indigo-400 mb-1">25+</div>
+                    <div className="text-3xl font-bold text-indigo-500 dark:text-indigo-400 mb-1">35+</div>
                     <div className="text-gray-600 dark:text-gray-300">Completed projects</div>
                   </div>
                 </div>
@@ -546,10 +539,11 @@ export default function PortfolioV2() {
             </div>
 
             <div className="text-center mt-12">
-              <Button variant="outline" className="border-gray-300 dark:border-gray-700">
+               <a href="https://github.com/tochi2055">  <Button variant="outline" className="border-gray-300 dark:border-gray-700">
                 View More Projects
               </Button>
-            </div>
+              </a>
+              </div>
           </div>
         </section>
 
@@ -638,28 +632,34 @@ export default function PortfolioV2() {
                       </div>
                       <div>
                         <h3 className="text-xl font-semibold mb-1"> Certified full Stack Development</h3>
-                        <p className="text-gray-500 dark:text-gray-400 mb-3">Amazon Web Services</p>
+                        <p className="text-gray-500 dark:text-gray-400 mb-3">NASSCOM</p>
                         <div className="flex items-center gap-2 mb-4">
                           <Badge
                             variant="outline"
                             className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 border-0"
                           >
-                            Issued: Jan 2023
+                            Issued: Jan 2024
                           </Badge>
                           <Badge
                             variant="outline"
                             className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 border-0"
                           >
-                            Expires: Jan 2026
+                            No Expiration
                           </Badge>
                         </div>
                         <p className="text-gray-600 dark:text-gray-300">
-                          Expertise in designing distributed systems and deploying applications on AWS infrastructure.
-                          Proficient in EC2, S3, RDS, Lambda, and other AWS services.
+                          Certified Full Stack Developer with expertise in building modern CRUD apps using Next.js and Node.js. Skilled in deploying distributed systems on AWS with EC2, S3, RDS, and more.
                         </p>
-                        <Button variant="link" className="mt-2 p-0 h-auto text-teal-500 dark:text-teal-400">
-                          View Certificate <ExternalLink className="ml-1 h-3 w-3" />
-                        </Button>
+                       <a
+  href="https://drive.google.com/file/d/1CwuHhSwjJm0tmHTTZjVkUjH5tTUAIR0J/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="link" className="mt-2 p-0 h-auto text-teal-500 dark:text-teal-400">
+    View Certificate <ExternalLink className="ml-1 h-3 w-3" />
+  </Button>
+</a>
+
                       </div>
                     </div>
                   </CardContent>
@@ -688,30 +688,36 @@ export default function PortfolioV2() {
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold mb-1">Microsoft Certified: Azure Developer</h3>
-                        <p className="text-gray-500 dark:text-gray-400 mb-3">Microsoft</p>
+                        <h3 className="text-xl font-semibold mb-1">DEVOPS ENGINEER</h3>
+                        <p className="text-gray-500 dark:text-gray-400 mb-3">HNG INTERNSHIP</p>
                         <div className="flex items-center gap-2 mb-4">
                           <Badge
                             variant="outline"
                             className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 border-0"
                           >
-                            Issued: Mar 2023
+                            Issued: Mar 2020
                           </Badge>
                           <Badge
                             variant="outline"
                             className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 border-0"
                           >
-                            Expires: Mar 2025
+                           No Expiration
                           </Badge>
                         </div>
                         <p className="text-gray-600 dark:text-gray-300">
                           Specialized in developing solutions using Azure services. Skilled in Azure App Service,
                           Functions, Storage, and Azure DevOps for CI/CD pipelines.
                         </p>
-                        <Button variant="link" className="mt-2 p-0 h-auto text-indigo-500 dark:text-indigo-400">
-                          View Certificate <ExternalLink className="ml-1 h-3 w-3" />
-                        </Button>
-                      </div>
+                                              <a
+  href="https://drive.google.com/file/d/1wkS5mU5fYr3J4i1JpOBBO3vyfpPY8zqb/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="link" className="mt-2 p-0 h-auto text-teal-500 dark:text-teal-400">
+    View Certificate <ExternalLink className="ml-1 h-3 w-3" />
+  </Button>
+</a>                   
+   </div>
                     </div>
                   </CardContent>
                 </Card>
@@ -739,30 +745,35 @@ export default function PortfolioV2() {
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold mb-1">Google Professional Cloud Developer</h3>
-                        <p className="text-gray-500 dark:text-gray-400 mb-3">Google Cloud</p>
+                        <h3 className="text-xl font-semibold mb-1">Full Stack java Developer</h3>
+                        <p className="text-gray-500 dark:text-gray-400 mb-3">ROOMAN</p>
                         <div className="flex items-center gap-2 mb-4">
                           <Badge
                             variant="outline"
                             className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 border-0"
                           >
-                            Issued: Jun 2023
+                            Issued: Jun 2020
                           </Badge>
                           <Badge
                             variant="outline"
                             className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 border-0"
                           >
-                            Expires: Jun 2025
+                            No Expiration
                           </Badge>
                         </div>
                         <p className="text-gray-600 dark:text-gray-300">
-                          Proficient in building scalable applications on Google Cloud Platform. Experience with GCP
-                          services including Compute Engine, App Engine, and Cloud Functions.
+                         Full Stack Java Developer skilled in building scalable web apps on GCP. Proficient with Java, Spring Boot, React, and GCP services like App Engine, Compute Engine, Cloud Functions, and Cloud SQL.
                         </p>
-                        <Button variant="link" className="mt-2 p-0 h-auto text-amber-500 dark:text-amber-400">
-                          View Certificate <ExternalLink className="ml-1 h-3 w-3" />
-                        </Button>
-                      </div>
+                         <a
+  href="https://drive.google.com/file/d/1zRty8dRvLmIK2rn__vsmd2HBZFWBF_Xm/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="link" className="mt-2 p-0 h-auto text-teal-500 dark:text-teal-400">
+    View Certificate <ExternalLink className="ml-1 h-3 w-3" />
+  </Button>
+</a>                     
+   </div>
                     </div>
                   </CardContent>
                 </Card>
@@ -791,14 +802,14 @@ export default function PortfolioV2() {
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold mb-1">MongoDB Certified Developer</h3>
-                        <p className="text-gray-500 dark:text-gray-400 mb-3">MongoDB University</p>
+                        <h3 className="text-xl font-semibold mb-1">Cloud Devops Nanodegree</h3>
+                        <p className="text-gray-500 dark:text-gray-400 mb-3">UDACITY</p>
                         <div className="flex items-center gap-2 mb-4">
                           <Badge
                             variant="outline"
                             className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 border-0"
                           >
-                            Issued: Sep 2023
+                            Issued: Sep 2017
                           </Badge>
                           <Badge
                             variant="outline"
@@ -811,9 +822,15 @@ export default function PortfolioV2() {
                           Expert in designing and implementing MongoDB database solutions. Skilled in data modeling,
                           aggregation framework, indexing, and performance optimization.
                         </p>
-                        <Button variant="link" className="mt-2 p-0 h-auto text-emerald-500 dark:text-emerald-400">
-                          View Certificate <ExternalLink className="ml-1 h-3 w-3" />
-                        </Button>
+                        <a
+  href="https://drive.google.com/file/d/1BV9jOpSf0p5zD6D0F6mQ1xIgYdt93rZm/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="link" className="mt-2 p-0 h-auto text-teal-500 dark:text-teal-400">
+    View Certificate <ExternalLink className="ml-1 h-3 w-3" />
+  </Button>
+</a>
                       </div>
                     </div>
                   </CardContent>
@@ -853,7 +870,7 @@ export default function PortfolioV2() {
 
             <div className="flex gap-4 mt-4 md:mt-0">
               <a
-                href="https://github.com/tochukwu-onuoha"
+                href="https://github.com/tochi2055"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-400 transition-colors"
