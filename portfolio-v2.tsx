@@ -152,7 +152,7 @@ export default function PortfolioV2() {
       technologies: ["React", "Node.js", "MongoDB", "Sanity.io or Contentful CMS", "Redux", "Auth flow", "Stripe checkout integration"],
       image: "better.PNG?height=200&width=350",
       github: "https://github.com/tochi2055/shopamour",
-      demo: "#",
+      demo: "https://shopamour.vercel.app/",
     },
     {
       title: "Task Management App",
@@ -161,7 +161,7 @@ export default function PortfolioV2() {
       technologies: ["Next.js", "TypeScript", "React Query", "TailwindCSS + HeadlessUI", "CRUD", " real-world interactions"],
       image: "taskflow.PNG?height=200&width=350",
       github: "https://github.com/tochi2055/Taskflow",
-      demo: "#",
+      demo: "https://task-flow-nu-virid.vercel.app/auth",
     },
     {
       title: "Money Amour",
@@ -176,7 +176,7 @@ export default function PortfolioV2() {
       description: "a modern, offline-first Progressive Web App (PWA) designed to simulate internal inventory systems used by logistics and e-commerce giants.",
       technologies: ["CRUD", "Dexie.js (IndexedDB)", "PWA Setup", "FastAPI", "real-time sync", "offline-first PWA", "Springboot"],
       image: "/placeholder.svg?height=200&width=350",
-      github: "#",
+      github: "https://github.com/tochi2055/Track-it",
       demo: "#",
     },
     {
@@ -188,12 +188,12 @@ export default function PortfolioV2() {
       demo: "https://devfolio-52zf.vercel.app/",
     },
     {
-      title: "Animation-Demo",
-      description: "Educational platform with course management, video streaming, and progress tracking.",
-      technologies: ["React", "Node.js", "MongoDB", "Video.js"],
-      image: "447073190-4e65d25b-9182-438a-ac34-a0001de4c159.png?height=200&width=350",
-      github: "https://github.com/tochi2055/Animation-demo",
-      demo: "https://animation-demo-brown.vercel.app/",
+      title: "IoT Inverter Monitoring",
+      description: "Designing a State-of-the-Art React Dashboard for Real-Time IoT Inverter Monitoring.",
+      technologies: ["React", "Node.js", " MQTT/WebSocket Integration", "Firebase", "Tailwind CSS", "Real-time data visualization"],
+      image: "460080797-cb0c8252-eba7-46fa-9f74-2a99f957ae2d.png?height=200&width=350",
+      github: "https://github.com/tochi2055/Amour-IoT-solar",
+      demo: "https://amour-io-t-solar.vercel.app/",
     },
   ]
 
@@ -205,13 +205,13 @@ export default function PortfolioV2() {
       description: "Specialized in software engineering with focus on web development and data structures.",
     },
     {
-      period: "2024",
+      
       title: "Full Stack Web Development Certification",
       institution: "NASSCOM",
       description: "Intensive training in modern web technologies including React, Node.js, and cloud deployment.",
     },
     {
-      period: "2020",
+      
       title: "Certified DevOps Enginee",
       institution: "HNG Internship",
       description: "Certified in cloud computing fundamentals and AWS services implementation.",
@@ -312,7 +312,7 @@ export default function PortfolioV2() {
                 className="order-2 md:order-1"
               >
                 <Badge className="mb-4 bg-teal-500/10 text-teal-500 dark:bg-teal-400/10 dark:text-teal-400 hover:bg-teal-500/20 dark:hover:bg-teal-400/20">
-                  Full-Stack Developer
+                  Full-Stack Developer | Devops Engineer
                 </Badge>
                 <h1 className="text-4xl md:text-6xl font-bold mb-4">
                   Hello, I'm{" "}
@@ -349,7 +349,7 @@ export default function PortfolioV2() {
                     <Github size={20} />
                   </a>
                   <a
-                    href="https://linkedin.com/in/tochukwu-onuoha"
+                    href="https://www.linkedin.com/in/tochukwu-onuoha-3b1821240/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-colors"
@@ -377,7 +377,7 @@ export default function PortfolioV2() {
                     <div className="relative">
                       <div className="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl">
                         <img
-                          src="/placeholder.svg?height=320&width=320"
+                          src="/adc0e920-40b9-4041-b9b9-37044e38abdb.jpeg?height=320&width=320"
                           alt="Tochukwu Onuoha"
                           className="w-full h-full object-cover"
                         />
@@ -430,7 +430,7 @@ export default function PortfolioV2() {
 
                 <div className="grid grid-cols-2 gap-4 mt-8">
                   <div className="p-4 rounded-lg bg-white dark:bg-gray-800 shadow-sm">
-                    <div className="text-3xl font-bold text-teal-500 dark:text-teal-400 mb-1">7+</div>
+                    <div className="text-3xl font-bold text-teal-500 dark:text-teal-400 mb-1">9+</div>
                     <div className="text-gray-600 dark:text-gray-300">Years of experience</div>
                   </div>
                   <div className="p-4 rounded-lg bg-white dark:bg-gray-800 shadow-sm">
@@ -878,7 +878,7 @@ export default function PortfolioV2() {
                 <Github size={18} />
               </a>
               <a
-                href="https://linkedin.com/in/tochukwu-onuoha"
+                href="https://www.linkedin.com/in/tochukwu-onuoha-3b1821240/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-400 transition-colors"
