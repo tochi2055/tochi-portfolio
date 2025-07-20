@@ -331,7 +331,7 @@ export default function PortfolioV2() {
                   >
                     View Projects <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                  <a href="https://drive.google.com/file/d/1CsBK-5r2NoWfAmHXgMNBIbgSVA5cYcIn/view?usp=sharing">  <Button variant="outline" className="border-gray-300 dark:border-gray-700">
+                  <a href="https://drive.google.com/file/d/1cqRBhy-9aaq12XLL1mhLHCTAONUti0Kw/view?usp=sharing">  <Button variant="outline" className="border-gray-300 dark:border-gray-700">
                     Download CV
                   </Button>
                   
